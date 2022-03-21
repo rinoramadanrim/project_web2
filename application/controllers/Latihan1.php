@@ -12,7 +12,7 @@ class Latihan1 extends CI_Controller
 		$hasil = $this->Model_latihan1->jumlah($n1, $n2);
 		echo "Hasil Penjumlahan dari ". $n1 ." + ". $n2 ." = ".$hasil;
 
-		testing commet push git
+		testing commit push git
 		*/
 		$this->load->model('Model_latihan1');
 		$data['nilai1'] = $n1;
